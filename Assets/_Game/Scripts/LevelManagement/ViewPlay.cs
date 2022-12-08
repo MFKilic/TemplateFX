@@ -13,7 +13,7 @@ namespace TemplateFx
         // Start is called before the first frame update
         public void ViewPlayStart()
         {
-            textLevel.text = "LEVEL" + LevelManager.Instance.datas.level;
+            textLevel.text = "LEVEL " + LevelManager.Instance.datas.level;
         }
        
       

@@ -36,6 +36,7 @@ namespace TemplateFx
         {
             viewInit.gameObject.SetActive(false);
             viewPlay.gameObject.SetActive(true);
+            viewPlay.ViewPlayStart();
             viewFinish.gameObject.SetActive(false);
         }
 
